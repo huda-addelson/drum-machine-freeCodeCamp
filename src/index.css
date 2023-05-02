@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-container {
+  background-color: aqua;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 10px;
+}
+
+#drum-machine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  row-gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#display {
+  width: 100%;
+  border: 3px solid white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.wrapper-drum {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  width: 100%;
+}
+
+.drum-pad {
+  width: 100%;
+  padding: 20px 15px;
+  background-color: blue;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+}
