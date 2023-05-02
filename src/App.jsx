@@ -78,11 +78,7 @@ function App() {
                 whileTap={{ scale: 0.7 }}
                 whileHover={{ scale: 1.05 }}>
                 {key}
-                <audio
-                  src={`./src/assets/${key}.mp3`}
-                  id={key}
-                  className='clip'
-                />
+                <audio src={`./public/${key}.mp3`} id={key} className='clip' />
               </motion.button>
             );
           })}
