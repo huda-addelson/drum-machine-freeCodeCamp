@@ -79,7 +79,7 @@ function App() {
                 whileHover={{ scale: 1.05 }}>
                 {key}
                 <audio
-                  src={`https://drum-machine-phi-nine.vercel.app/src/assets/${key}.mp3`}
+                  src={`./src/assets/${key}.mp3`}
                   id={key}
                   className='clip'
                 />
